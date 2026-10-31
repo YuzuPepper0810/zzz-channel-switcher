@@ -1,0 +1,11 @@
+# 本机运行状态，不进版本库
+dist/ui.ini
+dist/launcher.ini
+dist/switch.log
+switch-backup/
+*.tmp
+*.log.bak
+
+# 构建中间产物
+obj/
+bin/

@@ -1,0 +1,7 @@
+csc: C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+args: /nologo /target:winexe /platform:anycpu /optimize+ /warn:4 /win32manifest:launcher.manifest /out:dist\ZZZSwitcher.exe /r:System.dll /r:System.Windows.Forms.dll /r:System.Drawing.dll src\ChannelProfile.cs src\ChannelSdk.cs src\GameFolder.cs src\IniFile.cs src\LauncherMap.cs src\Log.cs src\Program.cs src\Switcher.cs src\Theme.cs src\Ui.cs
+result: exit=0 warnings=0 errors=0 size=73216
+sha256: BE63524952BDCEE81BF17CEF84F3921A90F34F22ADF17D30B4A06A342FC1A689
+built: 2026-10-31 23:56:27
+ui: v2.1.1 card layout, hand-drawn theme (src/Theme.cs), custom path box, dark log area with custom dark scrollbar
+dx12: launch flag -use-d3d12 (verified)
